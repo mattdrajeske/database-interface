@@ -8,3 +8,16 @@ C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\data
 C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.exe
 C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.pdb
 C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.Form1.resources
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\MySql.Data.dll
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\Google.Protobuf.dll
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\Zstandard.Net.dll
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\Renci.SshNet.dll
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\System.Buffers.dll
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\MySql.Data.xml
+C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.csproj.CopyComplete
