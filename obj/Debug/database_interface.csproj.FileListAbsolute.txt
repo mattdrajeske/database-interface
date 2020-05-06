@@ -7,3 +7,4 @@ C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\data
 C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.csproj.CoreCompileInputs.cache
 C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.exe
 C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.pdb
+C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.Form1.resources

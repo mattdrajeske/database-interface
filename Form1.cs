@@ -16,5 +16,25 @@ namespace database_interface
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(comboBox1.SelectedIndex == 0)
+            {
+                MessageBox.Show("Login Existing User");
+            }
+            if (comboBox1.SelectedIndex == 1)
+            {
+                MessageBox.Show("Create New User");
+            }
+            if (comboBox1.SelectedIndex == 2)
+            {
+                MessageBox.Show("Delete Account");
+            }
+            if (comboBox1.SelectedIndex == 3)
+            {
+                MessageBox.Show("Modify Account");
+            }
+        }
     }
 }
