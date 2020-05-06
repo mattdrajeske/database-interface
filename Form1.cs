@@ -21,13 +21,11 @@ namespace database_interface
         {
             if(comboBox1.SelectedIndex == 0)
             {
-                string[] promptValue = Prompt.ShowDialog("Username", "Password", "123");
+                string[] promptValue = Prompt.ShowDialog("Username", "Password", "Login");
             }
             if (comboBox1.SelectedIndex == 1)
             {
-                MessageBox.Show("Create New User");
-                Form newUser = new Form();
-                newUser.ShowDialog();
+                string[] promptValue = Prompt.ShowDialog("Username", "Email", "Create New User");
             }
             if (comboBox1.SelectedIndex == 2)
             {
@@ -37,15 +35,11 @@ namespace database_interface
             }
             if (comboBox1.SelectedIndex == 3)
             {
-                MessageBox.Show("Modify Account");
-                Form modify = new Form();
-                modify.ShowDialog();
+                string[] promptValue = Prompt.ShowDialog("Username", "New Email", "Modify Account");
             }
             if (comboBox1.SelectedIndex == 4)
             {
-                MessageBox.Show("Add Trail");
-                Form addTrail = new Form();
-                addTrail.ShowDialog();
+                string[] promptValue = Prompt.ShowDialog("Trail Name", "Location", "Add Trail");
             }
             if (comboBox1.SelectedIndex == 5)
             {
@@ -55,9 +49,7 @@ namespace database_interface
             }
             if (comboBox1.SelectedIndex == 6)
             {
-                MessageBox.Show("Add Sensor");
-                Form addSens = new Form();
-                addSens.ShowDialog();
+                string[] promptValue = Prompt.ShowDialog("Serial No.", "Trail Name", "Add Sensor");
             }
             if (comboBox1.SelectedIndex == 7)
             {
