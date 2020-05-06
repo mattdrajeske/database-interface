@@ -29,9 +29,7 @@ namespace database_interface
             }
             if (comboBox1.SelectedIndex == 2)
             {
-                MessageBox.Show("Delete Account");
-                Form delAccount = new Form();
-                delAccount.ShowDialog();
+                string[] promptValue = Prompt2.ShowDialog("Username", "Delete Account");
             }
             if (comboBox1.SelectedIndex == 3)
             {
@@ -43,9 +41,7 @@ namespace database_interface
             }
             if (comboBox1.SelectedIndex == 5)
             {
-                MessageBox.Show("Remove Trail");
-                Form remTrail = new Form();
-                remTrail.ShowDialog();
+                string[] promptValue = Prompt2.ShowDialog("Trail Name", "Remove Trail");
             }
             if (comboBox1.SelectedIndex == 6)
             {
@@ -53,9 +49,7 @@ namespace database_interface
             }
             if (comboBox1.SelectedIndex == 7)
             {
-                MessageBox.Show("Remove Sensor");
-                Form remSens = new Form();
-                remSens.ShowDialog();
+                string[] promptValue = Prompt2.ShowDialog("Serial No.", "Remove Sensor");
             }
         }
     }
@@ -81,6 +75,27 @@ namespace database_interface
             prompt.Controls.Add(inputBox2);
             prompt.ShowDialog();
             string[] arr = { inputBox1.Text, inputBox2.Text };
+            return arr;
+        }
+    }
+
+    public static class Prompt2
+    {
+        public static string[] ShowDialog(string text, string caption)
+        {
+            Form prompt = new Form();
+            prompt.Width = 350;
+            prompt.Height = 200;
+            prompt.Text = caption;
+            Label textLabel = new Label() { Left = 125, Top = 20, Text = text };
+            TextBox inputBox = new TextBox() { Left = 50, Top = 50, Width = 200 };
+            Button confirmation = new Button() { Text = "Ok", Left = 100, Width = 100, Top = 100 };
+            confirmation.Click += (sender, e) => { prompt.Close(); };
+            prompt.Controls.Add(confirmation);
+            prompt.Controls.Add(textLabel);
+            prompt.Controls.Add(inputBox);
+            prompt.ShowDialog();
+            string[] arr = { inputBox.Text };
             return arr;
         }
     }
