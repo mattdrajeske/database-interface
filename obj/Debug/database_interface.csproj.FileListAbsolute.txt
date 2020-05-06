@@ -1,0 +1,9 @@
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\database_interface.exe.config
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\database_interface.exe
+C:\Users\mattd\source\repos\database_interface\database_interface\bin\Debug\database_interface.pdb
+C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.csprojAssemblyReference.cache
+C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.Properties.Resources.resources
+C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.csproj.GenerateResource.cache
+C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.csproj.CoreCompileInputs.cache
+C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.exe
+C:\Users\mattd\source\repos\database_interface\database_interface\obj\Debug\database_interface.pdb
