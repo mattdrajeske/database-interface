@@ -39,7 +39,11 @@
             "Login Existing User",
             "Create New User",
             "Delete Account",
-            "Modify Account"});
+            "Modify Account",
+            "Add Trail",
+            "Remove Trail",
+            "Add Sensor",
+            "Remove Sensor"});
             this.comboBox1.Location = new System.Drawing.Point(12, 12);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(126, 21);
@@ -63,7 +67,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Database Interface";
             this.ResumeLayout(false);
 
         }
